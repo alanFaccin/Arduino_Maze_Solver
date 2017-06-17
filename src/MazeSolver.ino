@@ -11,8 +11,8 @@
 #include "Pitches.h"
 #include "Music.h"
 
-// Ideal Parameters: Speed 43
-// Pause: 294
+// Ideal Parameters: Speed 40
+// Pause: 300
 
 MoveType robotMove = MOVE_NORMAL; //! the type of Movement the robot is doing
 Robot myRobot;			//! the main Robot object
@@ -88,10 +88,6 @@ void setup()
 {
 	Serial.begin(57600);
 	myRobot.init();
-        if ( myRobot._speed < 1 || myRobot._speed > 100)
-          myRobot._speed = 40;    // set default working values
-        if ( myRobot._pause < 10 || myRobot._pause > 1000)
-          myRobot._pause = 300;   // set default working values
 	printStep(false);
 }
 
