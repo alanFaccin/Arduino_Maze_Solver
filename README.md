@@ -1,8 +1,8 @@
 # Arduino_Maze_Solver
 Arduino C++ code for solving a maze using line sensor (Bot'n Roll ONE)
 
-![](/maze.png)
-![](/maze2.png)
+[![](/maze.png)](https://www.youtube.com/watch?v=nHu3ZjCS1ZE)
+[![](/maze2.png)](https://www.youtube.com/watch?v=nHu3ZjCS1ZE)
 # Maze Solver - Instructions
 
 
